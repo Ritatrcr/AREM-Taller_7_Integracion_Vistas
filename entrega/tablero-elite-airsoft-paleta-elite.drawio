@@ -1,0 +1,309 @@
+<mxfile host="65bd71144e">
+    <diagram name="Tablero Elite Airsoft" id="tablero-elite-airsoft">
+        <mxGraphModel dx="1072" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1120" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#171717;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1800" height="1240" as="geometry"/>
+                </mxCell>
+                <mxCell id="accent-top-sand" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7F7358;strokeColor=none;opacity=75;" parent="1" vertex="1">
+                    <mxGeometry x="1515" y="92" width="260" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="accent-mid-sand" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B8A57D;strokeColor=none;opacity=55;" parent="1" vertex="1">
+                    <mxGeometry x="1565" y="232" width="260" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="accent-low-olive" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#4D5335;strokeColor=none;opacity=45;" parent="1" vertex="1">
+                    <mxGeometry x="1505" y="505" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="accent-bottom-sand" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7F7358;strokeColor=none;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="1445" y="975" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="title" value="Taller 7 - Integración de Vistas de Arquitectura: Elite Airsoft" style="text;html=1;strokeColor=none;fillColor=none;fontSize=30;fontStyle=1;fontColor=#F5F5F2;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="25" width="1200" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtitle" value="Narrativa integrada: reservas, pagos, consentimientos, operación, trazabilidad, infraestructura y seguridad para escalar el negocio con control" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#D6D1C6;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="72" width="1280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="contexto" value="Cliente real: Elite Airsoft&#xa;Empresa de entretenimiento táctico con reservas de partidas, operación en campo, atención por canales digitales, validación de pagos y control de participantes.&#xa;&#xa;Dolor principal: proceso manual y disperso que limita trazabilidad, escalabilidad y control normativo." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#B8A57D;fontSize=13;fontColor=#F5F5F2;spacing=14;arcSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="125" width="390" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="objetivos" value="Objetivos de arquitectura&#xa;• Centralizar reservas y pagos&#xa;• Reducir errores humanos&#xa;• Trazar consentimientos, asistencia y pagos&#xa;• Mejorar decisiones con datos&#xa;• Fortalecer seguridad y cumplimiento&#xa;• Habilitar crecimiento operacional" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B8A57D;strokeColor=#D6C79B;fontSize=13;fontColor=#111111;spacing=14;arcSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="125" width="350" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="narrativa" value="Narrativa TO-BE&#xa;El cliente reserva en web/app, paga o pre-registra el pago, acepta consentimientos digitales y recibe confirmación. El operador valida desde un panel, realiza check-in con QR, registra asistencia/incidentes y la gerencia visualiza ventas, ocupación y riesgos desde reportes centralizados." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=#7F7358;fontSize=13;fontColor=#F5F5F2;spacing=14;arcSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="125" width="450" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="referentes" value="Referentes de documentación&#xa;• Vistas y stakeholders: TOGAF&#xa;• Capas negocio / aplicación / tecnología: ArchiMate&#xa;• Zoom técnico: C4 Model&#xa;• Diagramas de referencia cloud y seguridad: AWS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=#7F7358;fontSize=13;fontColor=#F5F5F2;spacing=14;arcSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1315" y="125" width="410" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="h-negocio" value="Vista de Negocio&#xa;¿Qué proceso genera valor?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;align=center;arcSize=12;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="320" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="h-info" value="Vista de Información&#xa;¿Qué datos controlan la operación?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;align=center;arcSize=12;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="460" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="h-apps" value="Vista de Aplicaciones&#xa;¿Qué sistemas ejecutan el proceso?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;align=center;arcSize=12;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="600" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="h-infra" value="Vista de Infraestructura&#xa;¿Dónde corre y cómo escala?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;align=center;arcSize=12;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="740" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="h-sec" value="Vista de Seguridad y Gobierno&#xa;¿Cómo se protege y audita?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;align=center;arcSize=12;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="880" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="row1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#25221C;strokeColor=#7F7358;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="310" width="1405" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="row2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F251A;strokeColor=#7B8157;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="450" width="1405" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="row3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#202020;strokeColor=#7F7358;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="590" width="1405" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="row4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#24281D;strokeColor=#7B8157;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="730" width="1405" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="row5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292318;strokeColor=#B8A57D;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="870" width="1405" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="b1" value="Captación digital&#xa;redes / WhatsApp / web" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b2" value="Reserva de partida&#xa;fecha, hora, cupos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b3" value="Validación de pago&#xa;anticipo / saldo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b4" value="Consentimiento y datos&#xa;cliente / acudiente" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b5" value="Check-in operativo&#xa;QR / lista del día" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b6" value="Operación en campo&#xa;asistencia e incidentes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="333" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b7" value="Cierre y fidelización&#xa;CRM / promociones" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#B8A57D;strokeColor=#D6C79B;fontColor=#111111;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="333" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d1" value="Cliente / jugador&#xa;contacto y perfil" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d2" value="Reserva&#xa;horario, cupos, estado" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d3" value="Pago&#xa;monto, soporte, estado" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d4" value="Consentimiento&#xa;autorización digital" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d5" value="Inventario operativo&#xa;equipos, insumos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6" value="Evento / asistencia&#xa;check-in, novedades" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="473" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="d7" value="KPI de negocio&#xa;ventas, ocupación, riesgo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#2B3321;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="473" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1" value="Web/App reservas&#xa;cliente final" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2" value="Panel administrativo&#xa;operadores y gerencia" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a3" value="Pasarela de pagos&#xa;confirmación / conciliación" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a4" value="Gestor documental&#xa;consentimientos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a5" value="Módulo inventario&#xa;control operativo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6" value="Check-in QR&#xa;asistencia en sede" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="613" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="a7" value="CRM + BI&#xa;reportes y campañas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#222222;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="613" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f1" value="Frontend cloud&#xa;sitio público" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f2" value="Backend / API&#xa;servicios de negocio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f3" value="Base de datos&#xa;reservas y clientes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f4" value="Storage seguro&#xa;documentos y evidencias" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f5" value="Webhooks / cola&#xa;pagos y notificaciones" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f6" value="Logs y monitoreo&#xa;alertas operativas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="753" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f7" value="Backups y recuperación&#xa;continuidad" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#4D5335;strokeColor=#7B8157;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="753" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1" value="RBAC / perfiles&#xa;admin, operador, cliente" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2" value="Cifrado y privacidad&#xa;datos personales" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3" value="Auditoría&#xa;quién hizo qué y cuándo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s4" value="Trazabilidad normativa&#xa;consentimientos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5" value="Conciliación antifraude&#xa;pagos vs reservas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s6" value="Gestión de incidentes&#xa;registro y seguimiento" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="893" width="145" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="s7" value="Continuidad&#xa;backup, recuperación, SLA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;spacing=8;arcSize=16;fillColor=#7F7358;strokeColor=#B8A57D;fontColor=#F5F5F2;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="893" width="180" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="decisiones" value="Decisiones clave&#xa;1. Pasar de gestión manual/dispersa a plataforma centralizada.&#xa;2. Diseñar la reserva como entidad núcleo del negocio.&#xa;3. Separar canal cliente, panel operador y capa de datos.&#xa;4. Digitalizar consentimientos y evidencia de aceptación.&#xa;5. Usar trazabilidad, logs y reportes para control gerencial." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2B3321;strokeColor=#7B8157;fontSize=13;fontColor=#F5F5F2;spacing=12;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1050" width="540" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="reflexion" value="Reflexión crítica&#xa;La arquitectura es coherente si cada capa soporta el mismo proceso crítico: reserva → pago → consentimiento → check-in → operación → cierre. El riesgo principal no es solo técnico: es que la operación crezca sin controles, generando errores, baja trazabilidad y dependencia de personas. Por eso seguridad, datos y operación deben diseñarse desde el inicio." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=#7F7358;fontSize=13;fontColor=#F5F5F2;spacing=12;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="1050" width="680" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="wow" value="Efecto esperado&#xa;Elite Airsoft pasa de operar reservas manuales a una operación digital controlada: más velocidad, menos errores, mejor experiencia del cliente, evidencia auditable y datos para escalar." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B8A57D;strokeColor=#D6C79B;fontSize=13;fontStyle=1;fontColor=#111111;spacing=12;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="1050" width="395" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec-note" value="Seguridad transversal: no es una capa final; gobierna identidad, datos, trazabilidad, pagos, consentimiento y continuidad en todo el flujo." style="text;html=1;strokeColor=#B8A57D;fillColor=#7F7358;fontSize=13;fontStyle=1;fontColor=#F5F5F2;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="975" width="900" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" value="Cómo leer las flechas&amp;#xa;Arena: flujo de negocio&amp;#xa;Oliva: datos → sistemas&amp;#xa;Arena oscura: sistemas → infraestructura&amp;#xa;Arena clara: infraestructura → controles&amp;#xa;Punteado: relación de soporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=#7F7358;fontSize=12;fontColor=#D6D1C6;spacing=12;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1820" y="140" width="210" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb1" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b1" target="b2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb2" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b2" target="b3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb3" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b3" target="b4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb4" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b4" target="b5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb5" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b5" target="b6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eb6" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="b6" target="b7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-b1-a1" value="entrada digital" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b1" target="a1" edge="1">
+                    <mxGeometry x="-0.6783" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-b2-d2" value="crea/actualiza" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b2" target="d2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-b3-d3" value="confirma" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b3" target="d3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-b4-d4" value="registra aceptación" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b4" target="d4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-b5-a6" value="valida asistencia" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b5" target="a6" edge="1">
+                    <mxGeometry x="-0.5767" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-b6-d6" value="evidencia" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b6" target="d6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-b7-a7" value="segmenta" style="endArrow=block;html=1;rounded=0;strokeColor=#8C8066;strokeWidth=1;dashed=1;" parent="1" source="b7" target="a7" edge="1">
+                    <mxGeometry x="-0.6784" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-d1-a2" value="gestiona" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d1" target="a2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d2-a2" value="control operativo" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d2" target="a2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d3-a3" value="conciliación" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d3" target="a3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d4-a4" value="custodia" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d4" target="a4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d5-a5" value="disponibilidad" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d5" target="a5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d6-a6" value="check-in" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d6" target="a6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-d7-a7" value="analítica" style="endArrow=block;html=1;rounded=0;strokeColor=#7B8157;strokeWidth=2;" parent="1" source="d7" target="a7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-a1-f1" value="publicación" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a1" target="f1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-a2-f2" value="API" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a2" target="f2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-a3-f5" value="webhook" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a3" target="f5" edge="1">
+                    <mxGeometry x="0.7693" y="35" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-a4-f4" value="almacena" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a4" target="f4" edge="1">
+                    <mxGeometry x="0.2667" y="38" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-a5-f3" value="consulta" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a5" target="f3" edge="1">
+                    <mxGeometry x="0.0904" y="19" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-a6-f2" value="servicio" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a6" target="f2" edge="1">
+                    <mxGeometry x="0.175" y="-28" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-a7-f6" value="métricas" style="endArrow=block;html=1;rounded=0;strokeColor=#B8A57D;strokeWidth=2;" parent="1" source="a7" target="f6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f2-s1" value="permisos" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f2" target="s1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f3-s2" value="protección" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f3" target="s2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f2-s3" value="logs" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f2" target="s3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f4-s4" value="evidencia" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f4" target="s4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f5-s5" value="alertas pago" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f5" target="s5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f6-s6" value="monitoreo" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f6" target="s6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-f7-s7" value="recuperación" style="endArrow=block;html=1;rounded=0;strokeColor=#D6C79B;strokeWidth=2;" parent="1" source="f7" target="s7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

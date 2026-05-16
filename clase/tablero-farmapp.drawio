@@ -1,0 +1,212 @@
+<mxfile host="app.diagrams.net" modified="2026-05-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram name="Tablero FarmApp" id="farmapp-integracion-vistas">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="1000" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="title" value="FarmApp - Integración de Vistas de Arquitectura" style="text;html=1;strokeColor=none;fillColor=none;fontSize=30;fontStyle=1;fontColor=#0F172A;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="25" width="1160" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="subtitle" value="Cadena de farmacias con e-commerce integrado a puntos físicos, inventario, CRM, pagos y logística" style="text;html=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#475569;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="75" width="1080" height="35" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="context" value="Objetivo de negocio&#xa;• Servicio omnicanal consistente&#xa;• Inventario disponible en tiempo real&#xa;• Pedidos trazables desde compra hasta entrega&#xa;• Recomendaciones y promociones personalizadas&#xa;• Seguridad en pagos y datos personales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontSize=14;fontColor=#0F172A;spacing=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="55" y="120" width="350" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="narrative" value="Narrativa central&#xa;El cliente consulta productos, compra por app/web, valida prescripción si aplica, paga digitalmente y recibe despacho con rastreo. Internamente, la operación sincroniza POS, inventario, CRM, pagos y logística sobre infraestructura disponible y controles de seguridad transversales." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=14;fontColor=#334155;spacing=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="445" y="120" width="700" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend" value="Lectura del tablero&#xa;1. Negocio define el flujo de valor.&#xa;2. Información captura y conecta datos críticos.&#xa;3. Aplicaciones ejecutan la operación.&#xa;4. Infraestructura asegura disponibilidad.&#xa;5. Seguridad gobierna todo el modelo." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#CBD5E1;fontSize=13;fontColor=#334155;spacing=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="120" width="355" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- Headers -->
+        <mxCell id="h1" value="1. Vista de Negocio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=18;fontStyle=1;fontColor=#14532D;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="315" width="230" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="h2" value="2. Vista de Información" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=18;fontStyle=1;fontColor=#1E3A8A;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="445" width="230" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="h3" value="3. Vista de Aplicaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=18;fontStyle=1;fontColor=#78350F;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="575" width="230" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="h4" value="4. Vista de Infraestructura" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=18;fontStyle=1;fontColor=#4C1D95;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="705" width="230" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="h5" value="5. Vista de Seguridad y Gobierno" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=17;fontStyle=1;fontColor=#7F1D1D;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="835" width="230" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Row backgrounds -->
+        <mxCell id="r1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#BBF7D0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="1230" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#BFDBFE;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="1230" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FDE68A;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="1230" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="r4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#DDD6FE;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="1230" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="r5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="1230" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- Business nodes -->
+        <mxCell id="b1" value="Consultar disponibilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="325" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="b2" value="Comprar por App/Web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="525" y="325" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="b3" value="Validar prescripción" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="325" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="b4" value="Pago digital" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="895" y="325" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="b5" value="Despacho y rastreo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="325" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6" value="Fidelización y promociones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=13;fontColor=#14532D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="325" width="180" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Info nodes -->
+        <mxCell id="d1" value="Producto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="455" width="125" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" value="Inventario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="455" width="125" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d3" value="Cliente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="455" width="125" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" value="Pedido" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="790" y="455" width="125" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d5" value="Prescripción" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="940" y="455" width="130" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d6" value="Pago" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="455" width="125" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7" value="Descuento / Promoción" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontSize=13;fontColor=#1E3A8A;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="455" width="180" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Apps nodes -->
+        <mxCell id="a1" value="App móvil / Web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="145" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="E-commerce" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="135" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" value="Sistema POS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="585" width="135" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4" value="CRM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="830" y="585" width="120" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a5" value="Inventario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="975" y="585" width="130" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a6" value="Logística / Entregas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="585" width="160" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="a7" value="Pasarela de pagos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontSize=13;fontColor=#78350F;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="585" width="155" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Infra nodes -->
+        <mxCell id="t1" value="Nube híbrida" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="715" width="145" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t2" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="715" width="145" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t3" value="Servidores regionales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="715" width="165" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t4" value="BD replicada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="870" y="715" width="145" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t5" value="Broker de eventos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="715" width="155" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t6" value="Monitoreo / Observabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=13;fontColor=#4C1D95;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="715" width="210" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Security nodes -->
+        <mxCell id="s1" value="RBAC / IAM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="845" width="145" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="s2" value="Cifrado de datos personales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="845" width="185" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="s3" value="Auditoría y trazabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="720" y="845" width="175" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="s4" value="Monitoreo de fraude" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="845" width="165" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="s5" value="Cumplimiento y privacidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="845" width="180" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6" value="Alertas operativas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontSize=13;fontColor=#7F1D1D;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="845" width="155" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges business flow -->
+        <mxCell id="eb12" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="b1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb23" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="b2" target="b3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb34" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="b3" target="b4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb45" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="b4" target="b5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb56" style="endArrow=block;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="b5" target="b6"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Vertical relationships -->
+        <mxCell id="e1" value="stock" style="endArrow=block;html=1;rounded=0;strokeColor=#64748B;dashed=1;" edge="1" parent="1" source="b1" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" value="crea" style="endArrow=block;html=1;rounded=0;strokeColor=#64748B;dashed=1;" edge="1" parent="1" source="b2" target="d4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" value="requiere" style="endArrow=block;html=1;rounded=0;strokeColor=#64748B;dashed=1;" edge="1" parent="1" source="b3" target="d5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" value="registra" style="endArrow=block;html=1;rounded=0;strokeColor=#64748B;dashed=1;" edge="1" parent="1" source="b4" target="d6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" value="segmenta" style="endArrow=block;html=1;rounded=0;strokeColor=#64748B;dashed=1;" edge="1" parent="1" source="b6" target="d7"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e6" value="catálogo" style="endArrow=block;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=2;" edge="1" parent="1" source="d1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" value="sincroniza" style="endArrow=block;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=2;" edge="1" parent="1" source="d2" target="a5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" value="perfil" style="endArrow=block;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=2;" edge="1" parent="1" source="d3" target="a4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" value="orden" style="endArrow=block;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=2;" edge="1" parent="1" source="d4" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" value="transacción" style="endArrow=block;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=2;" edge="1" parent="1" source="d6" target="a7"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e11" value="consume" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a1" target="t2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" value="despliegue" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a2" target="t1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" value="sucursales" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a3" target="t3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" value="datos" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a4" target="t4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e15" value="eventos" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a5" target="t5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e16" value="alertas" style="endArrow=block;html=1;rounded=0;strokeColor=#D97706;strokeWidth=2;" edge="1" parent="1" source="a7" target="t6"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e17" value="acceso" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="t2" target="s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e18" value="datos" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="t4" target="s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e19" value="logs" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="t5" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e20" value="detección" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="t6" target="s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e21" value="gobierno" style="endArrow=block;html=1;rounded=0;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="t1" target="s5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="bottom" value="Conclusión del tablero: FarmApp requiere una arquitectura integrada para conectar la experiencia digital del cliente con la operación física de farmacias, garantizando trazabilidad, disponibilidad, seguridad y toma de decisiones basada en datos." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontColor=#334155;align=center;spacing=12;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="935" width="1030" height="50" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
